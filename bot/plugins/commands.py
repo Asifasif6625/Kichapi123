@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "@cinimakottaka_official ഇനിയും വരണേ.." ,
+                caption = "<b>💊കിടിലം സിനിമകൾ കിട്ടാന്‍ വേണ്ടി ജോയിൻ ചെയ്യൂ💊➖➖➖➖〽️➖➖➖➖➖➖GROUP @cinimakottaka_official ➖➖➖➖➖〽️➖➖➖➖➖➖CHANNELS @cinimakottaka_official1🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆@cinimakottaka_official2🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆@cinimakottaka_official4🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆      LIKE ✴️ SHARE ✴️ SUBSCRIBE</b>" ,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'join channel🎭', url="https://t.me/Cinimakottakaofficial"
                                 )
                         ]
                     ]
@@ -47,12 +47,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('GROUP🔥', url='https://t.me/cinimakottaka_official'),
+        InlineKeyboardButton('channel 1🌈', url ='https://t.me/cinimakottaka_official1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('channel 2🌈', url='https://t.me/Cinimakottaka_official4')
+        InlineKeyboardButton('channel 3🌈', url='https://t.me/Cinimakottaka_official2')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('channel🔥', url='https://t.me/Cinimakottakaofficial')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
