@@ -50,10 +50,9 @@ async def start(bot, update):
         InlineKeyboardButton('GROUP🔥', url='https://t.me/cinimakottaka_official'),
         InlineKeyboardButton('channel 1🌈', url ='https://t.me/cinimakottaka_official1')
     ],[
-        InlineKeyboardButton('channel 2🌈', url='https://t.me/Cinimakottaka_official4')
-        InlineKeyboardButton('channel 3🌈', url='https://t.me/Cinimakottaka_official2')
+        InlineKeyboardButton('channel 2🌈', url='https://t.me/Cinimakottaka_official4')        
     ],[
-        InlineKeyboardButton('channel🔥', url='https://t.me/Cinimakottakaofficial')
+        InlineKeyboardButton('channel 3🌈', url='https://t.me/Cinimakottakaofficial2')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
