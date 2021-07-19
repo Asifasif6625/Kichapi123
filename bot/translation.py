@@ -4,17 +4,15 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Hey {} bro!!</b>
+<b>വെറുതെ വന്ന് start അടിക്കണ്ട എന്നെ @cinimakottaka_official ഗ്രൂപ്പില്‍ മത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ ❌❌
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-
-For More Details Click Help Button Below..
-@CrazyBotsz
-</i>"""    
+എന്തെങ്കിലും ആവശ്യത്തിന് എന്നേ നോക്കണ്ട 🤗 Follow me🔫
+ @cinimakottakaofficial 
+</b>"""    
     
     HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
+<b><i><u>ഒന്നും പ്രതീക്ഷിക്കരുത് ഞാൻ ഹെല്പ് ചെയ്യില്ല!?</u></i></b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
@@ -43,7 +41,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
+@cinimakottaka_official
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
