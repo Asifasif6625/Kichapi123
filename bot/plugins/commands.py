@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "<b>💊കിടിലം സിനിമകൾ കിട്ടാന്‍ വേണ്ടി ജോയിൻ ചെയ്യൂ💊➖➖➖➖〽️➖➖➖➖➖➖GROUP @cinimakottaka_official ➖➖➖➖➖〽️➖➖➖➖➖➖CHANNELS @cinimakottaka_official1🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆@cinimakottaka_official2🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆@cinimakottaka_official4🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆      LIKE ✴️ SHARE ✴️ SUBSCRIBE</b>" ,
+                caption = "<b>🌈കിടിലം സിനിമകൾ കിട്ടാന്‍ വേണ്ടി ജോയിൻ ചെയ്യൂ🌈           ➖➖➖➖〽️➖➖➖➖➖➖          GROUP @cinimakottaka_official           ➖➖➖➖➖〽️➖➖➖➖➖➖           CHANNELS @cinimakottaka_official1          🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆           @cinimakottaka_official2           🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆           @cinimakottaka_official4            🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆             LIKE ✴️ SHARE ✴️ SUBSCRIBE</b>" ,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
