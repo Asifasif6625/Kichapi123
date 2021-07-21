@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "<b>🌈കിടിലം സിനിമകൾ കിട്ടാന്‍ വേണ്ടി ജോയിൻ ചെയ്യൂ🌈           ➖➖➖➖〽️➖➖➖➖➖➖          GROUP @cinimakottaka_official           ➖➖➖➖➖〽️➖➖➖➖➖➖           CHANNELS @cinimakottaka_official1          🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆           @cinimakottaka_official2           🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆           @cinimakottaka_official4            🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆             LIKE ✴️ SHARE ✴️ SUBSCRIBE</b>" ,
+                caption = "<b>🌈കിടിലം സിനിമകൾ കിട്ടാന്‍ വേണ്ടി ജോയിൻ ചെയ്യൂ🌈                          ➖➖➖➖〽️➖➖➖➖➖➖                          GROUP @cinimakottaka_official                         ➖➖➖➖➖〽️➖➖➖➖➖➖                          CHANNELS @cinimakottaka_official1                             🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆                      @cinimakottaka_official2                      🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆                         @cinimakottaka_official4                          🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆                           LIKE ✴️ SHARE ✴️ SUBSCRIBE</b>                                    copyright act 2020-2021   feedback @asifpmn " ,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -70,10 +70,10 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('വീട് ⚡', callback_data='start'),
+        InlineKeyboardButton('എബൗട്ട് 🚩', callback_data='about')
     ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('ക്ലോസ് 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -91,8 +91,8 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('വീട് ⚡', callback_data='start'),
+        InlineKeyboardButton('ക്ലോസ് 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
